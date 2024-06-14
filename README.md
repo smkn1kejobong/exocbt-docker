@@ -1,6 +1,19 @@
 # exocbt-docker
 ExtraOrdinaryCBT for Docker (Unofficial)
 
+### ExtraOrdinaryCBT Official :
+[![Website](https://img.shields.io/badge/🌐Website-%23000000.svg?logo=Site&logoColor=white)](https://ekstraordinary.com/)
+[![Email](https://img.shields.io/badge/Email-%23000000.svg?logo=Gmail&logoColor=white)](mailto://wandinak17@gmail.com)
+[![Github](https://img.shields.io/badge/Github-%23000000.svg?logo=Github&logoColor=white)](https://github.com/shellrean)
+[![Youtube](https://img.shields.io/badge/Youtube-%23000000.svg?logo=Youtube&logoColor=white)](https://www.youtube.com/@extraodev)
+
+### Docker Maintener :
+[![Github](https://img.shields.io/badge/Github-%23000000.svg?logo=Github&logoColor=white)](https://github.com/itnsapurbalingga)
+[![Youtube](https://img.shields.io/badge/Youtube-%23000000.svg?logo=Youtube&logoColor=white)](https://youtube.com/@inginkuliah)
+[![Tiktok](https://img.shields.io/badge/Tiktok-%23000000.svg?logo=Youtube&logoColor=white)](https://tiktok.com/@inginkuliah)
+[![Trakteer](https://img.shields.io/badge/Trakteer-%23000000.svg?logo=buy-me-a-coffee&logoColor=white)](https://trakteer.id/@inginkuliah)
+
+
 ## Deskripsi
 Repositori ini berisi Docker Compose untuk menjalankan ExtraOrdinaryCBT dalam kontainer Docker. Ini memudahkan penggunaan ExtraOrdinaryCBT dalam lingkungan yang terisolasi dengan cepat dan mudah.
 
@@ -49,16 +62,3 @@ docker-compose down
 
 ## Lisensi
 Isi dari repositori ini dilisensikan di bawah Lisensi MIT, lihat file LICENSE untuk lebih jelasnya.
-
-## Contact
-
-### ExtraOrdinaryCBT Official :
-[![Email](https://img.shields.io/badge/Email-%23000000.svg?logo=Gmail&logoColor=white)](mailto://wandinak17@gmail.com)
-[![Github](https://img.shields.io/badge/Github-%23000000.svg?logo=Github&logoColor=white)](https://github.com/shellrean)
-[![Youtube](https://img.shields.io/badge/Youtube-%23000000.svg?logo=Youtube&logoColor=white)](https://www.youtube.com/@extraodev)
-
-### Maintener :
-[![Github](https://img.shields.io/badge/Github-%23000000.svg?logo=Github&logoColor=white)](https://github.com/itnsapurbalingga)
-[![Youtube](https://img.shields.io/badge/Youtube-%23000000.svg?logo=Youtube&logoColor=white)](https://youtube.com/@inginkuliah)
-[![Tiktok](https://img.shields.io/badge/Tiktok-%23000000.svg?logo=Youtube&logoColor=white)](https://tiktok.com/@inginkuliah)
-[![Trakteer](https://img.shields.io/badge/Trakteer-%23000000.svg?logo=buy-me-a-coffee&logoColor=white)](https://trakteer.id/@inginkuliah)

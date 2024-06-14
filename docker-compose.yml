@@ -3,8 +3,7 @@ networks:
 
 services:
   app:
-    build:
-      dockerfile: Dockerfile
+    image: itnsapurbalingga/exocbt:4.3.0-app
     container_name: exocbt_app
     ports:
       - ${APP_EXPOSE}:${SERVER_PORT}

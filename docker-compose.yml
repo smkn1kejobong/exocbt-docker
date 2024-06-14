@@ -7,7 +7,7 @@ services:
       dockerfile: Dockerfile
     container_name: exocbt_app
     ports:
-      - 80:${SERVER_PORT}
+      - ${APP_EXPOSE}:${SERVER_PORT}
     env_file:
       - .env
     volumes:

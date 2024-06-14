@@ -1,6 +1,7 @@
 FROM ubuntu:20.04
-LABEL maintainer="shinau21.personal@gmail.com"
-LABEL version="4.3"
+LABEL maintainer="itnsapurbalingga"
+LABEL version="4.3.0"
+LABEL description="ExtraOrdinaryCBT v4.3.0 (Docker) [Unofficial]"
 USER root
 WORKDIR "/app"
 RUN apt update && \
@@ -12,7 +13,7 @@ RUN cp -R 4.3.0-rosetta-ubuntu+2/* .
 RUN rm exocbt.zip
 RUN rm -rf 4.3.0-rosetta-ubuntu+2
 COPY entrypoint.sh .
-RUN wget https://raw.githubusercontent.com/vishnubob/wait-for-it/master/wait-for-it.sh && \
-    chmod +x *.sh
+COPY wait-for-it.sh .
+RUN chmod +x *.sh
 ENTRYPOINT [ "./entrypoint.sh" ]
 CMD ["./main-amd64"]

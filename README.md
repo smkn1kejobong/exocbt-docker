@@ -11,7 +11,7 @@ ExtraOrdinaryCBT for Docker (Unofficial)
 [![Github](https://img.shields.io/badge/Github-%23000000.svg?logo=Github&logoColor=white)](https://github.com/itnsapurbalingga)
 [![Youtube](https://img.shields.io/badge/Youtube-%23000000.svg?logo=Youtube&logoColor=white)](https://youtube.com/@inginkuliah)
 [![Tiktok](https://img.shields.io/badge/Tiktok-%23000000.svg?logo=Youtube&logoColor=white)](https://tiktok.com/@inginkuliah)
-[![Trakteer](https://img.shields.io/badge/Trakteer-%23000000.svg?logo=buy-me-a-coffee&logoColor=white)](https://trakteer.id/@inginkuliah)
+[![Trakteer](https://img.shields.io/badge/Trakteer-%23000000.svg?logo=buy-me-a-coffee&logoColor=white)](https://trakteer.id/inginkuliah)
 
 
 ## Deskripsi
@@ -36,13 +36,14 @@ Repositori ini berisi Docker Compose untuk menjalankan ExtraOrdinaryCBT dalam ko
    Untuk custom expose port, Misalkan
    ```
    APP_EXPOSE=8080
+   DB_EXPOSE=5436
    SERVER_ASSET_URL=http://ip-or-domain:PORT
    ```
    Ganti `PORT` dengan value dari APP_EXPOSE
 
 3. Jalankan Docker Compose:
    ```bash
-   docker-compose up -d
+   docker compose up -d
    ```
    Perintah ini akan membangun dan menjalankan semua layanan yang diperlukan dalam mode detached.
 
@@ -57,7 +58,7 @@ Repositori ini berisi Docker Compose untuk menjalankan ExtraOrdinaryCBT dalam ko
 
 Untuk menghentikan dan menghapus semua kontainer yang terkait dengan layanan ini, jalankan:
 ```bash
-docker-compose down
+docker compose down
 ```
 
 ## Lisensi
